@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Minutes of Meeting (MoM) — Template</title>
+  <style>
+    :root{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;}
+    body{max-width:900px;margin:30px auto;padding:20px;color:#111;background:#f7f9fb}
+    h1{margin:0 0 12px;font-size:24px}
+    label{display:block;margin-top:12px;font-weight:600}
+    input[type=text], input[type=date], input[type=time], textarea, select{width:100%;padding:8px;border-radius:6px;border:1px solid #ccd;box-sizing:border-box;margin-top:6px}
+    textarea{min-height:100px}
+    .row{display:flex;gap:12px}
+    .col{flex:1}
+    .actions{margin-top:18px;display:flex;gap:10px}
+    button{padding:10px 14px;border:none;border-radius:8px;cursor:pointer}
+    button.primary{background:#2563eb;color:white}
+    button.ghost{background:transparent;border:1px solid #99a;}
+    .preview{background:white;padding:16px;margin-top:18px;border-radius:8px;box-shadow:0 6px 18px rgba(20,30,60,0.06)}
+    table{width:100%;border-collapse:collapse;margin-top:8px}
+    table th, table td{border:1px solid #e1e8f0;padding:8px;text-align:left}
+    .small{font-size:13px;color:#445}
+    footer{margin-top:18px;font-size:13px;color:#667}
+  </style>
+</head>
+<body>
+  <h1>Minutes of Meeting (MoM) — Template</h1>
+  <p class="small">Fill the fields below and use <strong>Preview</strong> to see the formatted MoM. Use <strong>Download</strong> to save an HTML file or Markdown version for Git commits.</p>
+
+  <label>Meeting Title</label>
+  <input id="title" type="text" value="Placement Training – Git & GitHub Basics" />
+
+  <div class="row">
+    <div class="col">
+      <label>Date</label>
+      <input id="date" type="date" value="2025-12-10" />
+    </div>
+    <div class="col">
+      <label>Time</label>
+      <input id="time" type="time" value="10:00" />
+    </div>
+    <div class="col">
+      <label>Venue / Mode</label>
+      <input id="venue" type="text" valu
